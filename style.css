@@ -6,11 +6,18 @@ html,body{
 }
 
 .container{
-    height:95vh;;
+    height:93vh;;
     width: 43vw;
     background-color: #FFFFFF;
     border-radius: 25px;
     border:2px solid white;
+    overflow: auto;
+}
+
+.top-f {
+    position: sticky;
+    top: 0px;
+    background-color: #fff
 }
 
 *{
