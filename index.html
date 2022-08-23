@@ -13,50 +13,25 @@
 </head>
 
 <body>
-    <div class="container mt-4  mx-auto">
-        <div class="row top-f">
-            <div class="col-6 text-start">
-                <i class="bi bi-x close"></i>
-            </div>
-            <div class="col-6 text-start">
-                <a href="#"><i class="bi bi-twitter tw"></i></a>
-            </div>
+    <div class="container main d-flex flex-column justify-content-center align-items-center bg-light position-absolute">
+        <div class="box first-section">
+            <a href="#"><i class="bi bi-twitter main-icon"></i></a>
+            <h3 class="fw-bold justify-content-start">Sign in to Twitter</h3>
+            <button> <i class="bi bi-google icon"></i> <small>Continue With Google</small></button>
+            <button><i class="bi bi-apple icon"></i> <small>Continue With Apple</small></button>
         </div>
-        <form>
-            <h3 class="fw-b pt-4">Sign in to Twitter</h3>
+        <h5>or</h5>
+        <div class="box second-section">
+            <form>
+                <input type="text" placeholder="phone,email,or username" />
+            </form>
+            <button class="next-button">Next</button>
+            <button>Forgot password?</button>
+        </div>
+        <p>Don't have an account?<a href="#">Sign up</a></p>
 
-
-            <button class="btn pt-2"> <i class="bi bi-google"></i> <small>Continue With Google</small></button>
-
-
-
-            <button class="btn"><i class="bi bi-apple"></i> <small class="fw-b">Continue With Apple</small></button>
-
-            <div class="row">
-                <div class="col-5">
-                    <hr style="background-color: black;">
-                </div>
-                <div class="col-2">
-                    <b>or</b>
-                </div>
-                <div class="col-5">
-                    <hr style="background-color: black;"">
-                        </div>
-                    </div>
-<div class=" pt-2">
-                    <input class="p-3  w-100" type="text" placeholder="phone,email,or username">
-
-                </div>
-                <div class="pt-2">
-                    <button class="btn btn-dark" style="color:white">Next</button>
-                </div>
-                <div>
-                    <button class="btn fw-b">Forgot password?</button>
-
-                </div>
-                <p class="pt-1">Don't have an account?<a href="#">Sign up</a></p>
-        </form>
     </div>
+
 </body>
 
 </html>
