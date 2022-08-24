@@ -22,7 +22,6 @@ body{
     height:40px;
     background-color: #fff;
     outline:none;
-    font-weight: bold;
     border-radius:20px;
     border:1px solid #d3d2d2;
     justify-content: center;
@@ -68,9 +67,17 @@ input:focus{
     height: 100vh;;
 }
 
+.box button .center{
+    vertical-align: center;
+}
+
 
 @media only screen and (max-width: 600px) {
     body {
       background-color: #f8f9fa;
     }
+    html, body {
+        overflow-x: hidden;
+      }
+     
   }
